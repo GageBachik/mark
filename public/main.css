@@ -1,0 +1,18 @@
+body {
+	background: url(assets/images/new-york-hero.jpg) center center no-repeat;
+	/*background: -webkit-linear-gradient(top,#82085f,#201a60);*/
+}
+
+.heading {
+	padding: 5% 0;
+}
+
+.heading .container {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 10% 0;
+}
+
+.heading .container img {
+	margin: 0 auto;
+}
