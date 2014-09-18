@@ -1,31 +1,63 @@
-body {
-	/*background: -webkit-gradient(linear,left top,left bottom,from(#82085f),to(#201a60));*/
-	background: linear-gradient(#82085f,#201a60) no-repeat;
+.gradient{
+    background: linear-gradient(#21A1B5,#2A753E) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
-.head {
-	width: 100%;
-	height: auto;
+.bg{
+    background: url(assets/images/new-york-hero.jpg) center center no-repeat;
+    background-size: cover;
+    opacity: .15;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
-.head .background {
-	background: url(assets/images/new-york-hero.jpg) center center no-repeat;
-	opacity: .15;
-	background-size: cover;
-	height: 100%;
-}
-
-.heading {
-	padding: 5% 0;
-
-}
 
 .heading .container {
 	text-align: center;
 	color: #FFFFFF;
-	padding: 10% 0;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    right: 0;
+    bottom: 0;
 }
 
 .heading .container img {
 	margin: 0 auto;
 }
+
+.controls {
+	position: absolute;
+	bottom: 15%;
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
+	color: #FFFFFF;
+	z-index: 10000;
+}
+
+.controls i {
+}
+
+.icon-left-open:hover, .icon-right-open:hover {
+	opacity: .8;
+}
+
+@media (max-width: 768px){
+	.controls .icon-left-open{
+		text-align: left;
+	}
+	.controls .icon-right-open{
+		text-align: right;
+	}
+}
+
