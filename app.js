@@ -10,6 +10,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', indexController.index);
 
-var server = app.listen(6918, function() {
+var server = app.listen(1337, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
