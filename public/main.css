@@ -1,63 +1,57 @@
-.gradient{
+.gradient {
     background: linear-gradient(#21A1B5,#2A753E) no-repeat;
-    height: 100%;
     background-size: cover;
     position: absolute;
-    left: 0;
     top: 0;
-    right: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.bg{
+.gradient .bg {
     background: url(assets/images/new-york-hero.jpg) center center no-repeat;
     background-size: cover;
     opacity: .15;
     position: absolute;
-    left: 0;
     top: 0;
-    right: 0;
     bottom: 0;
-}
-
-
-.heading .container {
-	text-align: center;
-	color: #FFFFFF;
-    position: absolute;
     left: 0;
-    top: 40%;
     right: 0;
+}
+
+.gradient .container {
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 40%;
     bottom: 0;
+    left: 0; 
+    right: 0;
 }
 
-.heading .container img {
-	margin: 0 auto;
+.gradient .container img {
+    margin: 0 auto;
 }
 
-.controls {
-	position: absolute;
-	bottom: 15%;
-	text-align: center;
-	width: 100%;
-	font-size: 40px;
-	color: #FFFFFF;
-	z-index: 10000;
+
+.gradient .controls {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 40px;
+    z-index: 2;
 }
 
-.controls i {
+.gradient .controls .icon-left-open {
+    text-align: left;
+}
+
+.gradient .controls .icon-right-open {
+    text-align: right;
 }
 
 .icon-left-open:hover, .icon-right-open:hover {
-	opacity: .8;
-}
-
-@media (max-width: 768px){
-	.controls .icon-left-open{
-		text-align: left;
-	}
-	.controls .icon-right-open{
-		text-align: right;
-	}
+    opacity: .8;
 }
 
