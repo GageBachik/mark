@@ -1,10 +1,23 @@
 body {
+	/*background: -webkit-gradient(linear,left top,left bottom,from(#82085f),to(#201a60));*/
+	background: linear-gradient(#82085f,#201a60) no-repeat;
+}
+
+.head {
+	width: 100%;
+	height: auto;
+}
+
+.head .background {
 	background: url(assets/images/new-york-hero.jpg) center center no-repeat;
-	/*background: -webkit-linear-gradient(top,#82085f,#201a60);*/
+	opacity: .15;
+	background-size: cover;
+	height: 100%;
 }
 
 .heading {
 	padding: 5% 0;
+
 }
 
 .heading .container {
