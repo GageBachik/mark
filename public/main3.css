@@ -1,0 +1,54 @@
+
+.cf-left-col {
+	width: 48.5%;
+	float: left;
+	margin-right: 3%;
+}
+
+.cf-right-col {
+	width: 48.5%;
+	float: right;
+}
+
+.contact-form .form-group {
+margin-bottom: 30px;
+}
+
+.contact-form .ci-btn {
+	margin-top: -5px;
+	color: #aaa;
+	background: rgba(51,51,51, .75);
+}
+.btn-mod.btn-large {
+	padding: 15px 40px 14px;
+	font-size: 13px;
+}
+.btn-full {
+	width: 100%;
+}
+
+form {
+	display: block;
+	margin-top: 40%;
+}
+
+.controls {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    color: #000000;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.controls .icon-left-open {
+    text-align: left;
+}
+
+.controls .icon-right-open {
+    text-align: right;
+}
+
+.icon-left-open:hover, .icon-right-open:hover {
+    opacity: .8;
+}
