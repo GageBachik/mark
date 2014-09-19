@@ -10,6 +10,8 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/gage', indexController.index);
 
+app.get('/mikael', indexController.mikael);
+
 app.post('/submit', indexController.submit);
 
 var server = app.listen(1337, function() {

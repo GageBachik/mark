@@ -32,6 +32,9 @@ var indexController = {
 		        res.send('Message sent: ' + info.response);
 		    }
 		});
+	},
+	mikael: function(req, res) {
+		res.render('mikael');
 	}
 };
 
