@@ -1,6 +1,6 @@
 {
   "name": "mark",
-   "version": "0.0.a",
+   "version": "0.0.1",
    "main": "app.js",
    "web": "node app.js",
    "scripts": {
