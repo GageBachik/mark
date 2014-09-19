@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
 
-	var array = ['index', 'about', 'contact'];
+	var array = ['index', 'about', 'proj1', 'contact'];
 
 	var count = 0;
 
@@ -52,9 +52,28 @@ $(document).on('ready', function() {
 			case 39: // right
 			dir('forward');
 			break;
-			
+
 			return; // exit this handler for other keys
 		}
+	});
+
+	// sending forms
+	$(document).on('click', '#submit_btn', function(e) {
+		e.preventDefault();
+		var name = $('#name').val();
+		var email = $('#email').val();
+		var message = $('#message').val();
+		
+		$.post( "/submit", {name: name, email: email, message: message}, function( data ) {
+			console.log(data);
+		});
+
+		$(this).parent().fadeOut(200, function () {
+				var html = $('<h3>Your message has been sent!</h3>').css({marginTop: 75, fontWeight: 'bolder'});
+				$(this).parent().html(html);
+				$(this).parent().fadeIn();
+		});
+		
 	});
 
 });

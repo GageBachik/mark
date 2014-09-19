@@ -10,6 +10,8 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/gage', indexController.index);
 
+app.post('/submit', indexController.submit);
+
 var server = app.listen(1337, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });

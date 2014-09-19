@@ -24,7 +24,7 @@
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    top: 40%;
+    top: 35%;
     bottom: 0;
     left: 0; 
     right: 0;
@@ -34,14 +34,14 @@
     margin: 0 auto;
 }
 
+.row {
+    margin: 0 auto;
+}
 
-.gradient .controls {
-    position: absolute;
-    bottom: 40%;
-    width: 100%;
-    color: #FFFFFF;
-    font-size: 40px;
-    z-index: 2;
+/* vids */
+
+#vid {
+    margin-top: -5%;
 }
 
 /* contact */
@@ -59,10 +59,6 @@ form {
 .cf-right-col {
     width: 48.5%;
     float: right;
-}
-
-.contact-form .form-group {
-margin-bottom: 30px;
 }
 
 .contact-form #message {
@@ -83,6 +79,16 @@ margin-bottom: 30px;
 }
 
 /* controls */
+
+.gradient .controls {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 40px;
+    z-index: 2;
+    padding: none !important;
+}
 
 .gradient .controls .icon-left-open {
     text-align: left;
