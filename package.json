@@ -1,5 +1,11 @@
 {
-  "web":"node app.js",
+  "name": "mark",
+   "version": "0.0.a",
+   "main": "app.js",
+   "web": "node app.js",
+   "scripts": {
+     "test": "foreman start"
+  },
   "dependencies": {
     "body-parser": "^1",
     "express": "^4",
