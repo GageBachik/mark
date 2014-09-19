@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var indexController = require('./controllers/index.js');
-
+var port = process.env.PORT || 1337;
 var app = express();
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/views');
@@ -14,6 +14,6 @@ app.get('/mikael', indexController.mikael);
 
 app.post('/submit', indexController.submit);
 
-var server = app.listen(1337, function() {
+var server = app.listen(port, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
