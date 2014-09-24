@@ -8,9 +8,9 @@ $(document).on('ready', function() {
 		$.ajax({
 			url: array[count] + ".html"
 		}).done(function(html) {
-			$('#swap').fadeOut(300, function () {
+			$('#swap').slideUp(300, function () {
 				$('#swap').html(html);
-				$('#swap').fadeIn();
+				$('#swap').slideDown();
 			});
 		});
 	};
