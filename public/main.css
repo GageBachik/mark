@@ -63,6 +63,7 @@ form {
 
 .contact-form #message {
     resize: none;
+    height: 83px;
 }
 
 .contact-form .ci-btn {
